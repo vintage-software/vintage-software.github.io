@@ -4,10 +4,53 @@ body {
 
 .card {
   background-color: #fff;
-  padding: 12px 8px 16px 8px;
+  padding: 12px 8px 24px 8px;
   width: 100%;
 }
 
 .btn {
+  background-color: #7AAC68;
+  border-radius: 2px;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid darken(#7AAC68, 10%);
 
+  &:hover {
+    background-color: darken(#7AAC68, 10%);
+  }
+}
+
+.main-header {
+  padding: 16px 12px;
+  background-color: #fff;
+}
+
+.main-footer {
+  background-color: #2d2d2d;
+  
+  a {
+    color: #fff;
+  }
+}
+
+.main-nav {
+  float: right;
+
+  &__link {
+    display: inline-block;
+    padding: 0 4px;
+    color: #2d2d2d;
+    text-decoration: none;
+
+    &:hover {
+      color: lighten(#2d2d2d, 20%);
+    }
+  }
+}
+
+.home-banner {
+  background-color: #595959;
+  color: #fff;
+  min-height: 340px;
 }

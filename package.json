@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/vintage-software/vintagesoftware.io#readme",
   "dependencies": {
-    "core-flex-grid": "^0.9.10"
+    "core-flex-grid": "^0.9.10",
+    "normalize.css": "^4.2.0"
   }
 }
