@@ -1,0 +1,20 @@
+--- 
+layout: default 
+---
+
+<div class="container project project-container">
+  <div class="flex-row">
+    <div class="col-3@md">
+      <div class="card margin-bottom"><img src="{{page.image}}" alt="{{page.title}}" class="project__image" /></div>
+      <a href="{{page.github}}" class="btn full-width display-block margin-bottom">Github</a>
+      <a href="{{page.documentation}}" class="btn full-width display-block margin-bottom">Docs</a>
+      <a href="{{page.demo}}" class="btn full-width display-block margin-bottom">Demo</a>
+    </div>
+    <div class="col-9@md">
+      <div class="card">
+        <h1>{{page.title}}</h1>
+        {{content}}
+      </div>
+    </div>
+  </div>
+</div>

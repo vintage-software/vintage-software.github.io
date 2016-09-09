@@ -10,7 +10,7 @@
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"> {% if page.keywords %}
   <meta name="keywords" content="{{ page.keywords }}">{% endif %}
 
-  <link rel="manifest" href="/manifest.json">
+  <link rel="shortcut icon" href="/assets/images/icon.png" />
 
   <style type="text/css">
     {% capture include_to_scssify %}
@@ -27,13 +27,15 @@
 
 <body>
   <header class="main-header">
-    Vintage Software
-
+    <a href="/" class="main-header__logo">
+      Vintage Software
+      <img src="/assets/images/logo.png" alt="Vintage Software Logo" />
+    </a>
     <nav class="main-nav">
-      <a href="#projects" class="main-nav__link">Projects<a>
-      <a href="https://github.com/vintage-software" class="main-nav__link">Github<a>
-      <a href="#" class="main-nav__link">Blog<a>
-      <a href="https://vintagesoftware.com/open-positions/" class="main-nav__link">Careers<a>
+      <a href="/" class="main-nav__link">Projects</a>
+      <a href="/blog" class="main-nav__link">Blog</a>
+      <a href="https://github.com/vintage-software" class="main-nav__link">Github</a>
+      <a href="https://vintagesoftware.com/open-positions/" class="main-nav__link">Careers</a>
     </nav>
   </header>
   <main>

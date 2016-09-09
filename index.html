@@ -9,53 +9,103 @@ nocontain: true
 ---
 
 <div class="home-banner">
-  <h1 class="text-center">Vintage Software Open Source</h1>
-</div> 
+  <div class="home-banner__container">
+    <div class="home-banner__heading">
+      <h1>Vintage Software <br />Open Source</h1>
+      <h3>Open Source projects, engineering blogs and more.</h3>
+    </div>
+    <img src="/assets/images/nature.svg" class="earth" id="earth" />
+    <img src="/assets/images/comet.svg" class="comet" />
+    <img src="/assets/images/comet.svg" class="comet2" />
+  </div>
+</div>
 
-<div id="projects" class="container">
+<div id="projects" class="container home-projects">
   <div class="flex-row--stretch text-center">
-    <div class="col-4@md">
+        <div class="col-6@sm col-4@md">
       <div class="card action-card">
-        <h3>Graph</h3>
+        <img src="/assets/images/chemistry.svg" alt="" class="full-width col-2--max float-center margin-bottom" />
+        <h2>Services</h2>
+        <p>Vstack Services Library, Core Vstack library, base data access and service layers</p>
+        <a href="/projects/vstack-services" class="btn">View Project</a>
+      </div>
+    </div>
+    <div class="col-6@sm col-4@md">
+      <div class="card action-card">
+        <img src="/assets/images/network.svg" alt="" class="full-width col-2--max float-center margin-bottom" />
+        <h2>Graph</h2>
         <p>A Observable (RxJS) based Graph layer for JavaScript Applications</p>
-        <a href="https://github.com/vintage-software/vstack-graph" class="btn">View Project</a>
+        <a href="/projects/vstack-graph" class="btn">View Project</a>
       </div>
     </div>
-    <div class="col-4@md">
+    <div class="col-6@sm col-4@md">
       <div class="card action-card">
-        <h3>TSGen</h3>
-        <p>A TypeScript Interface Generator from C# DTOs</p>
-        <a href="https://github.com/vintage-software/vstack-typescript-generator-cli" class="btn">View Project</a>
-      </div>
-    </div>
-    <div class="col-4@md">
-      <div class="card action-card">
-        <h3>API</h3>
+        <img src="/assets/images/satellite.svg" alt="" class="full-width col-2--max float-center margin-bottom" />
+        <h2>API</h2>
         <p>Vstack API Layer for advanced REST APIs</p><br />
-        <a href="https://github.com/vintage-software/vstack-api" class="btn">View Project</a>
+        <a href="/projects/vstack-api" class="btn">View Project</a>
       </div>
     </div>
   </div>
   <div class="flex-row--stretch text-center">
-    <div class="col-4@md">
+    <div class="col-6@sm col-4@md">
       <div class="card action-card">
-        <h3>Services</h3>
-        <p>Vstack Services Library</p>
-        <a href="https://github.com/vintage-software/vstack-services" class="btn">View Project</a>
+        <img src="/assets/images/mechanical-arm.svg" alt="" class="full-width col-2--max float-center margin-bottom" />
+        <h2>TSGen</h2>
+        <p>A TypeScript Interface Generator from C# Classes</p>
+        <a href="/projects/vstack-typescript-generator-cli" class="btn">View Project</a>
       </div>
     </div>
-    <div class="col-4@md">
+    <div class="col-6@sm col-4@md">
       <div class="card action-card">
-        <h3>Elastic</h3>
+        <img src="/assets/images/crystals.svg" alt="" class="full-width col-2--max float-center margin-bottom" />
+        <h2>Elastic Services</h2>
         <p>Vstack Elastic Services Library</p>
-        <a href="https://github.com/vintage-software/vstack-services-elastic" class="btn">View Project</a>
+        <a href="/projects/vstack-elastic-services" class="btn">View Project</a>
       </div>
     </div>
-    <div class="col-4@md">
+    <div class="col-6@sm col-4@md">
       <div class="card action-card">
-        <h3>Utilities</h3>
+        <img src="/assets/images/pen-container.svg" alt="" class="full-width col-2--max float-center margin-bottom" />
+        <h2>Utilities</h2>
         <p>Vstack C# Utilities</p>
-        <a href="https://github.com/vintage-software/vstack-utilities" class="btn">View Project</a>
+        <a href="/projects/vstack-utilities" class="btn">View Project</a>
+      </div>
+    </div>
+  </div>
+  <div class="flex-row--stretch text-center">
+    <div class="col-6@sm col-4@md">
+      <div class="card action-card">
+        <img src="/assets/images/paper-plane.svg" alt="" class="full-width col-2--max float-center margin-bottom" />
+        <h2>Extensions</h2>
+        <p>Vstack Extensions</p>
+        <a href="/projects/vstack-extensions" class="btn">View Project</a>
+      </div>
+    </div>
+    <div class="col-6@sm col-4@md">
+      <div class="card action-card">
+        <img src="/assets/images/core-flex-grid.png" alt="" class="full-width float-center margin-bottom" style="max-width: 130px" />
+        <h2>Core Flex Grid</h2>
+        <p>Responsive Flexbox CSS Grid</p>
+        <a href="/projects/core-flex-grid" class="btn">View Project</a>
+      </div>
+    </div>
+    <div class="col-6@sm col-4@md">
+      <div class="card action-card">
+        <img src="/assets/images/javascript.png" alt="" class="full-width float-center margin-bottom" style="max-width: 130px" />
+        <h2>JavaScript Style Guide</h2>
+        <p>Code Standards for JavaScript and TypeScript</p>
+        <a href="/projects/javascript-style-guide" class="btn">View Project</a>
+      </div>
+    </div>
+  </div>
+  <div class="flex-row--stretch text-center">
+    <div class="col-6@sm col-4@md">
+      <div class="card action-card">
+        <img src="/assets/images/html5.png" alt="" class="full-width float-center margin-bottom" style="max-width: 130px" />
+        <h2>HTML/CSS Style Guide</h2>
+        <p>Code Standards for HTML/CSS and Sass</p>
+        <a href="/projects/html-css-style-guide" class="btn">View Project</a>
       </div>
     </div>
   </div>
@@ -80,3 +130,9 @@ nocontain: true
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>-->
+
+<script>
+  document.getElementById('earth').addEventListener('click', event => {
+    event.target.src = '/assets/images/space.svg';
+  }, false);
+</script>
