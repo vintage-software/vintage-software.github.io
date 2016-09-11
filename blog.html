@@ -1,13 +1,33 @@
 ---
 layout: default
 title: Blog
-permalink: /blog
+permalink: /blog/
 ---
 
-<div class="container">
+<!--<div class="container">
   <div class="card">
     <h1 class="text-center">Coming Soon!</h1>
 
     <img src="/assets/images/startup.svg" class="full-width col-3--max float-center tilt" />
+  </div>
+</div>-->
+
+<div class="container">
+  <h1 class="page-heading">Blog</h1>
+
+  <div class="flex-row--stretch">
+    {% for post in site.posts %}
+    <div class="col-6@md">
+      <div class="card">
+        <h2>
+          {{ post.title | escape }}
+        </h2>
+        <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
+        <small>by {{post.author}}</small>
+        <br />
+        <a class="btn float-right" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
+      </div>
+    </div>
+    {% endfor %}
   </div>
 </div>

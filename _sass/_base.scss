@@ -123,10 +123,11 @@ main {
 
   @media (min-width: 1600px) {
     &__container {
-      min-height: 400px;
+      min-height: 460px;
     }
 
     &__heading {
+      top: 80px;
       padding: 0;
 
       h1 {
@@ -141,7 +142,7 @@ main {
     .earth {
       max-width: 440px;
       right: -70px;
-      bottom: -10px;
+      bottom: 12px;
     }
   }
 }
@@ -167,7 +168,7 @@ main {
 @keyframes comet {
   20%, 100% {
     opacity: 0;
-    transform: translate(400px, 400px) rotate(45deg);
+    transform: translate(400px, 430px) rotate(45deg);
     
   }
   0% {
@@ -181,7 +182,7 @@ main {
 .comet, .comet2 {
   position: absolute;
   top: -20px;
-  left: 60px;
+  left: 40px;
   width: 40px;
   transform: rotate(45deg);
   animation: comet 10s infinite ease-in-out;
@@ -207,4 +208,9 @@ main {
 
 .tilt {
   transform: rotate(45deg);
+}
+
+.blog-container {
+  max-width: 760px;
+  margin: 0 auto;
 }

@@ -20,9 +20,6 @@
   </style>
 
   <link href="https://fonts.googleapis.com/css?family=Roboto:500,400,300" rel="stylesheet">
-
-  <!--{% for post in site.posts limit:1 %}
-  <link rel="prefetch prerender" href="{{ post.permalink }}"> {% endfor %}-->
 </head>
 
 <body>
@@ -45,6 +42,7 @@
     <div class="container">
       <a href="https://vintagesoftware.com/">About</a>
       <a href="https://vintagesoftware.com/open-positions/">Careers</a>
+      <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
     </div>
   </footer>
 </body>
