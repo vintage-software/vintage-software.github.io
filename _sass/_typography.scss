@@ -11,3 +11,11 @@ p {
   margin-bottom: 24px;
   font-weight: 400;
 }
+
+a {
+  color: #2d2d2d;
+  
+  &::visited {
+    color: #2d2d2d;
+  }
+}
