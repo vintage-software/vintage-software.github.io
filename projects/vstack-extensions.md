@@ -4,7 +4,7 @@ title: Vstack Extensions
 description: 
 keywords: 
 permalink: /projects/vstack-extensions
-image: /assets/images/square.svg
+image: /assets/images/paper-plane.svg
 github: https://github.com/vintage-software/vstack-extensions
 documentation: https://github.com/vintage-software/vstack/wiki
 demo: https://github.com/vintage-software/vstack-extensions

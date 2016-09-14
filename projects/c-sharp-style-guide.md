@@ -10,4 +10,5 @@ documentation: https://github.com/vintage-software/csharp
 demo: https://github.com/vintage-software/csharp
 ---
 
-Code Standards for C Sharp (C#). Check the github repo for linting rules.
+Code Standards for C Sharp (C#). Check the github repo for linting rules. C# code is lited using 
+Style Cop.
