@@ -15,8 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Vintage Software Open Source
 email: dev@vintagesoftware.com
-description: > VintageSoftware.io is the home for all Vintage Software open Source
-  projects and engineering blogs
+description: VintageSoftware.io is the home for all Vintage Software open Source projects and engineering blogs
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vintagesoftware.io" # the base hostname & protocol for your site
 twitter_username: vinagesoftware
